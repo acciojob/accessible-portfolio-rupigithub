@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+header{
+	width:100vw;
+}
+h1,h2{
+	text-align: center;
+	margin-bottom:5px;
+}
+nav{
+	width:100%;
+}
+.nav_bar{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.discrpt{
+	padding: 5px;
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+}
+.discrpt .img{
+	margin-bottom:5px;
+}
+.my_skills div ul{
+	list-style-type:none;
+}
